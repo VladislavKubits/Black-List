@@ -1,0 +1,195 @@
+.person-list {
+    margin-top: 40px;
+
+    .people-search-table {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .search-group {
+            width: 80%;
+            align-items: center;
+
+            .search {
+                width: 60%;
+            }
+            .sort {
+                display: flex;
+                justify-content: center;
+                align-items: center !important;
+
+                select {
+                    height: 100%;
+                }
+            }
+        }
+
+        .table {
+            margin-top: 20px;
+        }
+    }
+
+    .person {
+        cursor: pointer;
+
+        &:hover {
+            color: green;
+        }
+
+        .status {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+}
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+
+    .left,.right {
+        margin: -5px 4px 0 4px;
+        padding: 0 10px;
+        font-size: 25px;
+        color: hsla(0,0%,100%,.7) !important;
+        &:focus {
+            box-shadow: none !important;
+        }
+        &:hover:enabled {
+            font-weight: 700;
+        }
+    }
+
+    .pagination-btns {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        button {
+            margin: 0 4px;
+            color: hsla(0,0%,100%,.7) !important;
+            background-color: #1e1e2f;
+
+            &:hover {
+                box-shadow: 0 0 0 0.2rem #008B8B70;
+            }
+        }
+    }
+}
+
+.edit-container {
+    width: 65%;
+    margin: 0 auto;
+
+    .option {
+        margin-bottom: 15px;
+        align-items: center;
+
+        .option-name {
+            width: 45%;
+            text-align: right;
+            padding-right: 15px;
+        }
+        .edit-field {
+            width: 52.2%;
+        }
+        select {
+            cursor: pointer;
+        }
+
+        .vue-phone-number-input {
+            display: flex;
+            justify-content: space-between;
+            width: 52.2%;
+            #VuePhoneNumberInput_country_selector {
+                width: 25px;
+            }
+            .country-selector-arrow {
+                display: none;
+            }
+            .field-label {
+                display: none;
+            }
+            .country-list {
+                display: none;
+            }
+            .flex-1 {
+                width: 80%;
+
+                .field-input {
+                    width: 100% !important;
+                }
+            }
+        }
+
+        .vdp-datepicker {
+            width: 52.2%;
+            input {
+                width: 100%;
+            }
+        }
+
+        textarea {
+            width: 97%;
+        }
+    }
+}
+
+.edit-buttons-container {
+    width: 45%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+    .btn-back, .btn-edit {
+        text-decoration: none;
+        margin-right: 10px;
+        background-color: buttonface;
+        margin: 0;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        color: #000;
+        padding: 3px 10px;
+        -webkit-appearance: button;
+        cursor: pointer;
+    }
+    .btn-edit {
+        margin-left: 20px;
+    }
+    .btn-submit {
+        margin-left: 20px;
+    }
+}
+
+.add-new-person {
+    color: gray;
+    font-size: 24px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+
+    &:hover {
+        color: green;
+        text-decoration: none;
+    }
+}
+
+.about-person-container {
+    white-space: pre-line;
+
+    .field {
+        margin-top: 20px;
+        border-top: .0625rem solid hsla(0,0%,100%,.1);
+        padding-top: 15px;
+        margin-top: 10px;
+
+        .field-name {
+            width: 32%;
+        }
+    }
+}

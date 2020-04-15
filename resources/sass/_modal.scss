@@ -1,0 +1,26 @@
+.modal {
+    .modal-header, .modal-body, .modal-footer {
+        background: #27293d !important;
+    }
+    .modal-header {
+        border-bottom: 1px solid #2b3553 !important;
+    }
+    .modal-footer {
+        border-top: 1px solid #2b3553 !important;
+    }
+    .field {
+        display: flex;
+        width: 100%;
+        margin-top: 15px;
+
+        .name {
+            width: 40%;
+        }
+
+        .field-value {
+            font-style: italic;
+            font-weight: 700;
+            align-items: center;
+        }
+    }
+}

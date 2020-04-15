@@ -1,0 +1,25 @@
+.header {
+    width: 100%;
+    background-color: #fff;
+    padding: 15px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+
+    .user-info {
+        line-height: 1px;
+    }
+
+    .logout {
+        color: rgba(0, 0, 0, 0.5);
+        display: block;
+        padding: 0.5rem 1rem;
+        cursor: pointer;
+        font-size: 20px;
+
+        &:hover {
+            color: rgba(0, 0, 0, 0.7);
+        }
+    }
+}

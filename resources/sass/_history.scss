@@ -1,0 +1,52 @@
+.history-list {
+    .title {
+        font-size: 16px;
+    }
+    .history-not-found {
+        font-style: italic;
+        font-weight: 700;
+    }
+    table {
+        width: 100%;
+        margin-top: 20px;
+       
+        .field {
+            cursor: pointer;
+        }
+    }
+}
+
+.history {
+    .field {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        padding-bottom: 7px;
+    }
+    #history-info {
+        white-space: pre-wrap;
+        overflow: hidden;
+    }
+
+    .full {
+        height: fit-content !important;
+    }
+}
+
+.history-info {
+    text-overflow: ellipsis;
+    height: 22px;
+    white-space: pre-wrap;
+    overflow: hidden;
+    margin: 0;
+}
+
+.notation-crop {
+    text-overflow: ellipsis;
+    width: 278px;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0;
+}
+
+.notation-full {
+    white-space: pre-wrap !important;
+}

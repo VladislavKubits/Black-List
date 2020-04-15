@@ -1,0 +1,41 @@
+@media (max-width: 1266px) {
+    .person-list {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1199px) {
+    .edit-buttons-container {
+        width: 54%;
+    }
+}
+
+@media (max-width: 991px) {
+    .edit-buttons-container {
+        width: 74%;
+    }
+}
+
+@media (max-width: 767px) {
+    .edit-buttons-container {
+        width: 68%;
+    }
+}
+
+@media (max-width: 533px) {
+    .edit-buttons-container {
+        width: 80%;
+    }
+}
+
+@media (max-width: 417px) {
+    .edit-buttons-container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 354px) {
+    .nav-link {
+        padding: 0.5rem 0.5vw !important;
+    }
+}
